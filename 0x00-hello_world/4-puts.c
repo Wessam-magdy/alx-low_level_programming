@@ -1,0 +1,12 @@
+#!/bin/bash
+#include <stdio.h>
+/**  
+ *Main Entry Point
+ * Description : C Program that print witth put function
+ * Return Alwayas 0 succses
+ */
+int main(void)
+{
+	puts ("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
