@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 
-/**  
+/*
  * main -  Entry Point
  *
- * Description : C Program that print witth put function
+ * Description: C Program that print witth put function
  *
- * Return : Alwayas 0 ( Success )
+ * Return: Alwayas 0 (Success)
  */
 
 int main(void)
