@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * __isalpha - check if a charachter is lower case
+ * _isalpha - check if a charachter is lower case
  *
  * @c: the character to check
  * Description: A C  program that check charachters
  * Return: 1 for success and . for fail
  */
 
-int __isalpha(int c)
+int _isalpha(int c)
 {
 	if (c >= 97 && c <= 122)
 		return (1);
