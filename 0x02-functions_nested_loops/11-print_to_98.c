@@ -8,7 +8,7 @@
  * @c: return
  */
 
-int print _to_98(int c)
+int print_to_98(int c)
 {
 	int count;
 
