@@ -1,12 +1,14 @@
 #include "main.h"
 
-/*
- * print_to_98 check if a charachter is lower cas
- *
- * Description: print_to_98 function
- *
- * @c: return
- */
+/**
+	 * print_to_98 -  This is the preferred style for multi-line
+	 * comments in C source code.
+	 * Please use it consistently.
+	 *
+	 * Description:  A column of asterisks on the left side,
+	 * with beginning and ending almost-blank lines.
+	 * @c: inital par
+	 */
 
 void print_to_98(int c)
 {
