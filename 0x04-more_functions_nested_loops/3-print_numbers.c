@@ -12,11 +12,11 @@
 
 void print_numbers(void)
 {
-	int i = 0;
+	int num = 0;
 
 	do {
-		_putchar(i + 48);
-		i++;
-	} while (i >= 0 && i <= 9)
-	_putchat('\n');
+		_putchar(num + 48);
+		num++;
+	} while (num >= 0 && num <= 9)
+	_putchar('\n');
 }
