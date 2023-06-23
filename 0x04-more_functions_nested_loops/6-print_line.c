@@ -18,11 +18,9 @@ void print_line(int n)
 		_putchar('\n');
 	else
 	{
-		do {
+		for (count = 1 ; count <= n ; count++)
 			_putchar('-');
-			count++;
-		} while (count < n)
-	_putchar('\n');
+		_putchar('\n');
 	}
 
 }
