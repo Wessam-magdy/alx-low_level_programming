@@ -6,7 +6,7 @@
  * Please use it consistently.
  * Description:  A column of asterisks on the left side,
  * with beginning and ending almost-blank lines.
- * @*n:  int param
+ * @n:  int param
  * Return: 1 if success and 0 if fail
  */
 
