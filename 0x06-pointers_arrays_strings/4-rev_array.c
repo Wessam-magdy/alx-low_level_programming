@@ -1,23 +1,26 @@
 #include "main.h"
 
 /**
- * reverse_array -  This is the preferred style for multi-line
- * comments in C source code.
- * Please use it consistently.
- * Description:  A column of asterisks on the left side,
- * with beginning and ending almost-blank lines.
- * @a:  int param
- * @n: param
+ * _swap - swaps the values of two integers
+ * @a: pointer to an integer
+ * @b: pointer to an integer
+ */
+static void _swap(int *a, int *b)
+{
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
+/**
+ * reverse_array - reverses the content of an array of integers
+ * @a: array of integers
+ * @n: number of elements in the array
  */
 void reverse_array(int *a, int n)
 {
-	int i, j, t;
+	int i, j;
 
-	for (i = 0; j < (n - 1) ; i < j ; i++, j--)
-	{
-		t = a[i];
-		a[i] = a[j];
-		a[j] = t;
-	}
-
+	for (i = 0, j = n - 1; i < j; i++, j--)
+		_swap(&a[i], &a[j]);
 }
