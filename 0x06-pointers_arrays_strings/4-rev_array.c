@@ -8,7 +8,6 @@
  * with beginning and ending almost-blank lines.
  * @a:  int param
  * @n: param
- * Return: 1 if success and 0 if fail
  */
 void reverse_array(int *a, int n)
 {
